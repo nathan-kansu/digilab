@@ -1,4 +1,16 @@
 @import "tailwindcss";
 @layer base {
-    @import "@xyflow/react/dist/style.css";
+  @import "@xyflow/react/dist/style.css";
+}
+
+.connectingto {
+  background: red;
+}
+
+.connectingfrom {
+  background: orange;
+}
+
+.valid {
+  background: green;
 }
